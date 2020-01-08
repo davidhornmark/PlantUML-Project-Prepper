@@ -1,0 +1,7 @@
+@startuml
+class "Source Reader" {
+    {method} Big Method
+    {field} Temporary Variable
+    {method} Temporary Method
+}
+@enduml

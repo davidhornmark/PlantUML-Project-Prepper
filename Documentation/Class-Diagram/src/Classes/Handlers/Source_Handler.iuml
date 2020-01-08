@@ -1,0 +1,11 @@
+@startuml
+!include ../Source-Handling/Source_Reader.iuml
+class "Source Handler" {
+    {method} Big Method
+    {field} Temporary Variable
+    {method} Temporary Method
+}
+
+"Source Handler" *-- "Source Reader"
+
+@enduml

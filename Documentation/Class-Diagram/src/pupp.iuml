@@ -1,0 +1,14 @@
+@startuml
+' To make comments use " ' "
+!include includes.iuml
+
+class PUPP {
+    {field} Temporary Variable
+}
+
+PUPP *-- "Main Handler"
+
+' Toggles
+hide members
+hide circles
+@enduml

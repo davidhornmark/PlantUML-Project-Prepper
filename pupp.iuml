@@ -1,0 +1,25 @@
+@startuml
+' To make comments use " ' "
+!include ../fake_path/includes.iuml
+!include ../../fake_af/fake_inc.iuml
+!include addons.iuml
+
+class PUPP {
+    +int temp
+    -int field1
+    +String method1(int power)
+    +void dummyMethod()
+    +bool method123(int qqq)
+    #char field2
+    -double method2(string lolly, bool pop)
+    #long double method3(char x, long int y, const double z)
+    +userDefinedClass<T> field3
+}
+
+"PUPP" --o "Main Handler"
+"Output Handler" *-- "Output Writer"
+
+' Toggles
+hide members
+hide circles
+@enduml

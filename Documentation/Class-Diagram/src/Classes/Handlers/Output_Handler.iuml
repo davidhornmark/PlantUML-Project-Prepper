@@ -1,0 +1,10 @@
+@startuml
+!include ../Output-Handling/Output_Writer.iuml
+class "Output Handler" {
+    {field} Temporary AF
+}
+
+"Output Handler" *-- "Output Writer"
+
+
+@enduml

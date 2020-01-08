@@ -1,0 +1,14 @@
+@startuml
+!include Source_Handler.iuml
+!include Translation_Handler.iuml
+!include Output_Handler.iuml
+
+class MainHandler {
+    +void BigMethodBoi()
+}
+
+"Main Handler" *-- "Source Handler"
+"Main Handler" *-- "Translation Handler"
+"Main Handler" *-- "Output Handler"
+
+@enduml

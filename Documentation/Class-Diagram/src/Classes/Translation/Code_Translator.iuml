@@ -1,0 +1,5 @@
+@startuml
+class "Code Translator" {
+    {method} Major Temporary Method
+}
+@enduml

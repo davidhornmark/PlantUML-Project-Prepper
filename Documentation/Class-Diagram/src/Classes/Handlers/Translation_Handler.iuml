@@ -1,0 +1,11 @@
+@startuml
+!include ../Translation-Handling/Relations_Translator.iuml
+!include ../Translation-Handling/Code_Translator.iuml
+
+class "Translation Handler" {
+    {method} Small Temporary Method
+}
+
+"Translation Handler" *-- "Relations Translator"
+"Translation Handler" *-- "Code Translator"
+@enduml

@@ -1,0 +1,5 @@
+@startuml
+class "Relations Translator" {
+    {method} Minor Temporary Method
+}
+@enduml
